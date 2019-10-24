@@ -1,3 +1,5 @@
+![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
+
 # Lab | Classes: Vikings vs Saxons
 
 ## Introduction
@@ -29,9 +31,9 @@ Upon completion, add your deliverables to git. Then commit and push your branch 
 ## Challenge
 The Vikings and the Saxons are at war. Both are soldiers, however, they have their own particular characteristics such as fighting styles and stamina. 
 
-<div style="text-align:center">
-  <img src="https://media.giphy.com/media/16ZmZSmOTSgrS/giphy.gif" width=400px>
-</div>
+<p align="center">
+  <img src="https://media.giphy.com/media/16ZmZSmOTSgrS/giphy.gif" width=400">
+</p>
 
 Your tasks for this challenge are:
 - Complete the `battle` module. You will need to edit the `soldiers.py` file to complete the definition of the three different classes included in that file: `Soldier`, `Viking` and `Saxon`.
