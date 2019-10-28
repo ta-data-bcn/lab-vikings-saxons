@@ -1,15 +1,15 @@
 # Soldier
 class Soldier:
     def __init__(self, health, strength):
-        self.health = int(health)
-        self.strength = int(strength)
+        self.health = health
+        self.strength = strength
         
     def attack(self):
         return self.health
       
 #    def receive_damage(self, damage):
 #        self.damage = damage
-#        self.health = int(self.health - self.damage)
+#        self.health = self.health -= self.damage
 #        return self.health
 
 
@@ -21,12 +21,12 @@ class Viking(Soldier):
         
     def receive_damage(self, damage):
         self.damage = damage
-        self.health = int(self.health - self.damage)
+        self.health -= self.damage
         if int(self.health) > 0:
-            #print(f"{} has received {} points of damage" self.name self.damage)
+           #print(f"{} has received {} points of damage", self.name, self.damage)
             #print(self.name+" has received "+self.damage+" points of damage")
-            return '{} has received {} points of damage'.format(self.name, self.damage)
-        if int(self.health) <= 0:
+            print('{} has received {} points of damage'.format(self.name, self.damage))
+        else:
             return '{} has died in combat'.format(self.name)                
                 
     def battle_cry(self):
@@ -41,11 +41,13 @@ class Saxon(Soldier):
         
     def receive_damage(self, damage):
         self.damage = damage
-        self.health = int(self.health - self.damage)
+        self.health -= self.damage
         if int(self.health) > 0:
-            return 'A Saxon has received {} points of damage'.format(self.damage)
-        if int(self.health) <= 0:
-            return 'A Saxon has died in combat'               
+            #return 
+            print('A Saxon has received {} points of damage'.format(self.damage))
+        else:
+        #if int(self.health) <= 0:
+            return print(f'A Saxon has died in combat')
                 
 
     
