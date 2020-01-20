@@ -20,7 +20,7 @@ class Viking(Soldier):
      
     def receive_damage(self, damage):
         self.health -= damage
-        if health > 0:
+        if self.health > 0:
             print(self.name, "has received", damage, "points of damage")
         else:
             print(self.name, "has died in combat")
@@ -34,7 +34,7 @@ class Saxon(Soldier):
     
     def receive_damage(self, damage):
         self.health -= damage
-        if health > 0:
+        if self.health > 0:
             print("A Saxon has received", damage, "points of damage")
         else:
             print("A Saxon has died in combat")
