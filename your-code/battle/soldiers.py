@@ -8,7 +8,7 @@ class Soldier:
         return self.strenght
     
     def receive_damage(self, damage):
-        return health = health - damage
+        return health == health - damage
         
     
 # Viking
@@ -23,7 +23,7 @@ class Viking(Soldier):
         return self.strenght
     
     def receive_damage(self, damage, name):
-        health = health - damage
+        health == health - damage
         if health > 0:
             print(self.name, "has received", self.damage, "points of damage")
         else:
@@ -44,7 +44,7 @@ class Saxon(Soldier):
         return self.strenght
     
     def receive_damage(self, damage):
-        health = health - damage
+        health == health - damage
         if health > 0:
             print("A Saxon has received", self.damage, "points of damage")
         else:
