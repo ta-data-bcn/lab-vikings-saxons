@@ -60,7 +60,7 @@ Your task is to modify the `battle` module. Open `soldiers.py` and edit the clas
   - Must return the *strength* of the soldier. 
 - `receive_damage`
   - Must receive as an argument the *damage* inflicted to the soldier. 
-  - Must remove the received *damage* from the *health* property of the soldier.
+  - Must remove t he received *damage* from the *health* property of the soldier.
 
 #### Viking
 A `Viking` is a `Soldier` with additional properties. 
