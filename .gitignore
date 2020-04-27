@@ -12,6 +12,9 @@
 profile_default/
 ipython_config.py
 
+# ignore folder
+battle2
+
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
 
