@@ -66,7 +66,8 @@ Your task is to modify the `battle` module. Open `soldiers.py` and edit the clas
 A `Viking` is a `Soldier` with additional properties. 
 
 **Inheritance**
-`Viking` must inherit from `Soldier`. Vikings share the *health* and *strength* properties with soldiers, as well as the *attack* method.  
+`Viking` must inherit from `Soldier`. Vikings share the *health* and *strength* properties with soldiers,
+ as well as the *attack* method.  
 
 **Properties**
 Apart from the inherited *health* and *strength*, `Vikings` must have an extra property called *name*. 
